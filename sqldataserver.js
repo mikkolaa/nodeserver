@@ -18,12 +18,12 @@ app.get('/', function (req, res) {
     };
     
     sql.connect(config, function (err) {    
-		if (err) 
-			console.log(err);
+	    if (err) 
+	       console.log(err);
 
-		var request = new sql.Request();           
+	    var request = new sql.Request();           
 		
-		request.query('select * from Customers', function (err, recordset) {            
+	    request.query('select * from Customers', function (err, recordset) {            
             if (err) 
 				console.log(err)
             /* Data streamiin */
