@@ -4,7 +4,7 @@ var app = express();
 
 /* Requestin käsittely */
 app.get('/', function (req, res) {
-	/* Driverin installointi: npm install mssql	*/
+  /* Driverin installointi: npm install mssql	*/
   /* Katso, että palvelimella on SQL Server Browser päällä */
     var sql = require("mssql");
 
