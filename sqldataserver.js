@@ -14,7 +14,7 @@ app.get('/', function (req, res) {
         password: 'xxxxxxx',
         server: 'MILAX-PC\\SQLEXPRESS', 
         database: 'Northwind',
-		port: 1433 						
+	port: 1433 						
     };
     
     sql.connect(config, function (err) {    
