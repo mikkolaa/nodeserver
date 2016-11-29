@@ -25,7 +25,7 @@ app.get('/', function (req, res) {
 		
 	    request.query('select * from Customers', function (err, recordset) {            
             if (err) 
-				console.log(err)
+	        console.log(err)
             /* Data streamiin */
             res.send(recordset);            
         });
