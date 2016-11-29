@@ -26,7 +26,7 @@ app.get('/', function (req, res) {
 	    request.query('select * from Customers', function (err, recordset) {            
             if (err) 
 	        console.log(err)
-            /* Data streamiin */
+            /* Data streamiin joka näkyy clintille json:na */
             res.send(recordset);            
         });
     });
