@@ -8,7 +8,7 @@ app.get('/', function (req, res) {
   /* Katso, että palvelimella on SQL Server Browser päällä */
     var sql = require("mssql");
 
-	/* Connection-konfiguraatio */
+  /* Connection-konfiguraatio */
     var config = {
         user: 'sa',
         password: 'xxxxxxx',
