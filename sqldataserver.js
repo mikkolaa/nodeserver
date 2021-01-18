@@ -1,4 +1,6 @@
 /* Ladataan Express-modulit */
+/* npm install express */
+/* npm install mssql */
 var express = require('express');
 var app = express();
 
@@ -12,7 +14,7 @@ app.get('/', function (req, res) {
     var config = {
         user: 'sa',
         password: 'xxxxxxx',
-        server: 'MILAX-PC\\SQLEXPRESS', 
+        server: 'DESKTOP-NI8TNFP\\SQLEXPRESS', 
         database: 'Northwind',
 	port: 1433 						
     };
