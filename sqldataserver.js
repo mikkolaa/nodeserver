@@ -12,7 +12,7 @@ app.get('/', function (req, res) {
     var config = {
         user: 'sa',
         password: 'xxxxxxx',
-        server: 'MILAX-PC\\SQLEXPRESS', 
+        server: 'DESKTOP-NI8TNFP\\SQLEXPRESS', 
         database: 'Northwind',
 	port: 1433 						
     };
